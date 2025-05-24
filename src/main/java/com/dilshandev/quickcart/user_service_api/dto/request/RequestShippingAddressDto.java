@@ -7,9 +7,11 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class RequestUserDto {
- private String username;
- private String password;
- private String firstName;
- private String lastName;
+public class RequestShippingAddressDto {
+
+    private String country;
+
+    private String city;
+
+    private String street;
 }
